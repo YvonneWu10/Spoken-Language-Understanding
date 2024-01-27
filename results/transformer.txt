@@ -1,0 +1,2068 @@
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 0.9867	Dev acc: 54.7486	Dev fscore(p/r/f): (52.5346/59.4369/55.7730)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 0.9519	Dev acc: 62.4581	Dev fscore(p/r/f): (60.4915/66.7362/63.4606)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 56	Dev loss: 0.9068	Dev acc: 63.0168	Dev fscore(p/r/f): (60.8571/66.6319/63.6137)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 1.0398	Dev acc: 76.2011	Dev fscore(p/r/f): (78.6653/81.1262/79.8768)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 0.8916	Dev acc: 64.5810	Dev fscore(p/r/f): (62.6426/68.7174/65.5395)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 49	Dev loss: 1.1014	Dev acc: 75.4190	Dev fscore(p/r/f): (78.0142/80.2920/79.1367)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.3542	Dev acc: 25.1397	Dev fscore(p/r/f): (19.4093/23.9833/21.4552)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 1.1195	Dev acc: 75.3073	Dev fscore(p/r/f): (81.6504/78.4150/80.0000)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 1.0189	Dev acc: 59.6648	Dev fscore(p/r/f): (57.0285/66.8405/61.5458)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6186	Dev acc: 74.8603	Dev fscore(p/r/f): (79.0136/78.5193/78.7657)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 60	Dev loss: 1.0321	Dev acc: 53.7430	Dev fscore(p/r/f): (52.1375/58.4984/55.1351)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 1.4707	Dev acc: 75.0838	Dev fscore(p/r/f): (78.6378/79.4578/79.0456)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 1.0714	Dev acc: 50.0559	Dev fscore(p/r/f): (53.9631/51.8248/52.8723)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 42	Dev loss: 1.5337	Dev acc: 34.4134	Dev fscore(p/r/f): (34.7097/28.0501/31.0265)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.0905	Dev acc: 72.4022	Dev fscore(p/r/f): (74.1584/78.1022/76.0792)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 85	Dev loss: 0.8322	Dev acc: 64.0223	Dev fscore(p/r/f): (62.4299/69.6559/65.8452)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.1269	Dev acc: 74.5251	Dev fscore(p/r/f): (79.9574/78.2065/79.0722)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 90	Dev loss: 0.9002	Dev acc: 61.3408	Dev fscore(p/r/f): (59.7083/68.3003/63.7160)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 0.5850	Dev acc: 74.7486	Dev fscore(p/r/f): (77.8468/78.4150/78.1299)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 1.3284	Dev acc: 53.9665	Dev fscore(p/r/f): (54.1992/57.8728/55.9758)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.2818	Dev acc: 29.8324	Dev fscore(p/r/f): (30.8343/26.5902/28.5554)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 49	Dev loss: 1.2362	Dev acc: 75.5307	Dev fscore(p/r/f): (77.7000/81.0219/79.3262)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 74	Dev loss: 1.0660	Dev acc: 59.2179	Dev fscore(p/r/f): (54.4757/66.6319/59.9437)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 0.9947	Dev acc: 74.9721	Dev fscore(p/r/f): (76.8769/80.0834/78.4474)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.0465	Dev acc: 56.8715	Dev fscore(p/r/f): (53.3333/65.9020/58.9552)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.0826	Dev acc: 57.8771	Dev fscore(p/r/f): (53.8938/63.5036/58.3054)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 46	Dev loss: 0.9220	Dev acc: 75.7542	Dev fscore(p/r/f): (80.0211/78.9364/79.4751)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.3310	Dev acc: 42.3464	Dev fscore(p/r/f): (43.8211/56.2044/49.2462)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 0.6447	Dev acc: 73.7430	Dev fscore(p/r/f): (79.2696/76.9552/78.0952)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 1.0267	Dev acc: 54.1899	Dev fscore(p/r/f): (51.5099/62.2523/56.3739)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.3910	Dev acc: 74.5251	Dev fscore(p/r/f): (77.1630/79.9791/78.5458)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 0.9635	Dev acc: 60.7821	Dev fscore(p/r/f): (58.9623/65.1721/61.9118)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.0373	Dev acc: 58.9944	Dev fscore(p/r/f): (56.0847/66.3191/60.7740)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.1029	Dev acc: 74.4134	Dev fscore(p/r/f): (77.4029/78.9364/78.1621)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.0751	Dev acc: 46.5922	Dev fscore(p/r/f): (46.4111/59.3326/52.0824)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 0.9711	Dev acc: 74.1899	Dev fscore(p/r/f): (80.0436/76.5381/78.2516)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 1.0654	Dev acc: 52.2905	Dev fscore(p/r/f): (52.3944/58.1856/55.1383)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 0.6146	Dev acc: 73.7430	Dev fscore(p/r/f): (77.5130/77.9979/77.7547)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 0.9421	Dev acc: 60.7821	Dev fscore(p/r/f): (56.9316/64.2336/60.3626)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 12	Dev loss: 1.2472	Dev acc: 75.5307	Dev fscore(p/r/f): (78.9366/80.5005/79.7109)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 1.0563	Dev acc: 57.9888	Dev fscore(p/r/f): (57.2512/62.9823/59.9801)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 1.0639	Dev acc: 75.4190	Dev fscore(p/r/f): (77.3966/79.9791/78.6667)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 59	Dev loss: 0.9976	Dev acc: 58.6592	Dev fscore(p/r/f): (57.6535/65.5892/61.3659)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 4	Dev loss: 0.5420	Dev acc: 75.5307	Dev fscore(p/r/f): (80.4047/78.7278/79.5574)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 67	Dev loss: 1.1267	Dev acc: 53.4078	Dev fscore(p/r/f): (52.5110/62.1481/56.9245)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6760	Dev acc: 75.1955	Dev fscore(p/r/f): (81.0401/77.9979/79.4899)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 1.1570	Dev acc: 58.6592	Dev fscore(p/r/f): (57.3063/67.8832/62.1480)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 57	Dev loss: 1.0740	Dev acc: 74.1899	Dev fscore(p/r/f): (75.0992/78.9364/76.9700)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 58	Dev loss: 0.9577	Dev acc: 59.4413	Dev fscore(p/r/f): (55.4974/66.3191/60.4276)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 74	Dev loss: 1.4176	Dev acc: 34.0782	Dev fscore(p/r/f): (31.3208/34.6194/32.8876)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 0.8996	Dev acc: 71.1732	Dev fscore(p/r/f): (70.9647/77.4765/74.0778)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 47	Dev loss: 1.1827	Dev acc: 49.6089	Dev fscore(p/r/f): (43.4079/58.7070/49.9113)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 0.9074	Dev acc: 72.7374	Dev fscore(p/r/f): (77.8857/75.2868/76.5642)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 61	Dev loss: 1.0456	Dev acc: 57.6536	Dev fscore(p/r/f): (54.7748/63.3994/58.7724)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 79	Dev loss: 1.6527	Dev acc: 45.8101	Dev fscore(p/r/f): (43.7247/56.3087/49.2252)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 72	Dev loss: 0.5934	Dev acc: 73.0726	Dev fscore(p/r/f): (75.1285/76.2252/75.6729)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 1.4143	Dev acc: 34.9721	Dev fscore(p/r/f): (34.0406/38.4776/36.1233)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 1.0043	Dev acc: 75.4190	Dev fscore(p/r/f): (76.3692/78.5193/77.4293)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 0.8938	Dev acc: 54.5251	Dev fscore(p/r/f): (52.6171/59.7497/55.9570)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 85	Dev loss: 0.9276	Dev acc: 71.2849	Dev fscore(p/r/f): (70.4589/76.8509/73.5162)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 1.0824	Dev acc: 55.0838	Dev fscore(p/r/f): (53.8894/59.9583/56.7621)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 0.8688	Dev acc: 73.1844	Dev fscore(p/r/f): (78.6102/75.4953/77.0213)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 91	Dev loss: 1.1999	Dev acc: 53.7430	Dev fscore(p/r/f): (53.8389/59.2284/56.4052)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 20	Dev loss: 1.9488	Dev acc: 29.6089	Dev fscore(p/r/f): (26.1538/24.8175/25.4682)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 76	Dev loss: 0.6161	Dev acc: 72.2905	Dev fscore(p/r/f): (73.5621/76.0167/74.7692)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 1.2445	Dev acc: 39.2179	Dev fscore(p/r/f): (37.2036/47.4453/41.7049)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.2182	Dev acc: 41.1173	Dev fscore(p/r/f): (42.2156/58.8113/49.1503)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 1.2685	Dev acc: 73.4078	Dev fscore(p/r/f): (74.8252/78.1022/76.4286)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 32	Dev loss: 1.2661	Dev acc: 46.2570	Dev fscore(p/r/f): (46.1356/61.0010/52.5370)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 52	Dev loss: 1.6269	Dev acc: 30.8380	Dev fscore(p/r/f): (29.4727/32.6382/30.9748)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 0.9939	Dev acc: 69.8324	Dev fscore(p/r/f): (68.6180/74.5568/71.4643)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 72	Dev loss: 1.3257	Dev acc: 40.0000	Dev fscore(p/r/f): (35.4788/47.1324/40.4837)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.6209	Dev acc: 72.6257	Dev fscore(p/r/f): (74.6162/76.0167/75.3099)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 62	Dev loss: 1.8141	Dev acc: 28.7151	Dev fscore(p/r/f): (26.2238/39.1032/31.3939)
+
+
+lr: 0.005000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 0.5445	Dev acc: 74.1899	Dev fscore(p/r/f): (76.7394/77.0594/76.8991)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.4177	Dev acc: 40.1117	Dev fscore(p/r/f): (35.8974/54.0146/43.1307)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 38	Dev loss: 1.9546	Dev acc: 29.3855	Dev fscore(p/r/f): (31.5164/33.1595/32.3171)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 33	Dev loss: 1.5054	Dev acc: 25.1397	Dev fscore(p/r/f): (23.9398/36.4964/28.9137)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 20	Dev loss: 1.5720	Dev acc: 34.4134	Dev fscore(p/r/f): (36.2278/40.4588/38.2266)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 1.5111	Dev acc: 40.5587	Dev fscore(p/r/f): (33.1640/47.6538/39.1100)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 0.9588	Dev acc: 68.3799	Dev fscore(p/r/f): (69.5229/74.4526/71.9033)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.8084	Dev acc: 64.3575	Dev fscore(p/r/f): (65.7443/71.8457/68.6597)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 0.9327	Dev acc: 64.5810	Dev fscore(p/r/f): (64.8956/71.3243/67.9583)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 90	Dev loss: 0.8057	Dev acc: 69.6089	Dev fscore(p/r/f): (70.7293/73.8269/72.2449)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 0.9309	Dev acc: 69.8324	Dev fscore(p/r/f): (70.7965/75.0782/72.8745)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 0.8780	Dev acc: 64.9162	Dev fscore(p/r/f): (64.4422/67.4661/65.9195)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 12	Dev loss: 1.0969	Dev acc: 76.5363	Dev fscore(p/r/f): (78.7018/80.9176/79.7943)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 0.8680	Dev acc: 65.0279	Dev fscore(p/r/f): (64.6125/72.1585/68.1773)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 30	Dev loss: 1.0888	Dev acc: 76.0894	Dev fscore(p/r/f): (79.3814/80.2920/79.8341)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 68	Dev loss: 0.8442	Dev acc: 61.6760	Dev fscore(p/r/f): (61.9048/66.4234/64.0845)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.8424	Dev acc: 75.4190	Dev fscore(p/r/f): (81.9582/77.6851/79.7645)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 0.8693	Dev acc: 66.9274	Dev fscore(p/r/f): (67.7820/73.9312/70.7232)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 53	Dev loss: 0.7731	Dev acc: 74.8603	Dev fscore(p/r/f): (79.8919/77.0594/78.4501)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 0.7458	Dev acc: 66.1453	Dev fscore(p/r/f): (65.3242/69.3431/67.2736)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 1.2606	Dev acc: 75.8659	Dev fscore(p/r/f): (79.2608/80.5005/79.8758)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 78	Dev loss: 0.8012	Dev acc: 67.0391	Dev fscore(p/r/f): (67.3674/70.1773/68.7436)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 75	Dev loss: 0.9220	Dev acc: 74.9721	Dev fscore(p/r/f): (77.3414/80.0834/78.6885)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 0.8591	Dev acc: 67.1508	Dev fscore(p/r/f): (64.4231/69.8644/67.0335)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 0.9923	Dev acc: 73.8547	Dev fscore(p/r/f): (79.0997/76.9552/78.0127)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 1.0343	Dev acc: 69.4972	Dev fscore(p/r/f): (69.6031/74.9739/72.1888)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 0.7399	Dev acc: 67.4860	Dev fscore(p/r/f): (67.8854/71.6371/69.7108)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.6888	Dev acc: 73.0726	Dev fscore(p/r/f): (77.4160/76.8509/77.1324)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 0.8832	Dev acc: 64.5810	Dev fscore(p/r/f): (65.6496/69.5516/67.5443)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 56	Dev loss: 1.2682	Dev acc: 76.0894	Dev fscore(p/r/f): (78.8501/80.0834/79.4620)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 0.9182	Dev acc: 68.0447	Dev fscore(p/r/f): (65.9696/72.3670/69.0204)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 76	Dev loss: 0.9776	Dev acc: 67.8212	Dev fscore(p/r/f): (69.8551/75.3910/72.5176)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 0.8817	Dev acc: 73.5196	Dev fscore(p/r/f): (75.5511/78.6236/77.0567)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 0.8218	Dev acc: 64.4693	Dev fscore(p/r/f): (64.1951/68.6131/66.3306)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 23	Dev loss: 0.6687	Dev acc: 75.3073	Dev fscore(p/r/f): (80.6277/77.6851/79.1290)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 0.8576	Dev acc: 65.6983	Dev fscore(p/r/f): (66.1258/67.9875/67.0437)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 0.9878	Dev acc: 64.1341	Dev fscore(p/r/f): (62.4088/71.3243/66.5693)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 0.5156	Dev acc: 74.1899	Dev fscore(p/r/f): (76.7708/76.8509/76.8108)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 58	Dev loss: 1.0984	Dev acc: 66.7039	Dev fscore(p/r/f): (68.8038/74.9739/71.7565)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.4188	Dev acc: 74.7486	Dev fscore(p/r/f): (77.5076/79.7706/78.6228)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 61	Dev loss: 0.8797	Dev acc: 61.8994	Dev fscore(p/r/f): (63.3761/66.9447/65.1116)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 1.0157	Dev acc: 72.7374	Dev fscore(p/r/f): (75.4350/76.8509/76.1364)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 0.7814	Dev acc: 66.2570	Dev fscore(p/r/f): (66.6000/69.4473/67.9939)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.6645	Dev acc: 74.4134	Dev fscore(p/r/f): (78.4730/77.1637/77.8128)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 0.8110	Dev acc: 66.1453	Dev fscore(p/r/f): (63.9299/72.2628/67.8414)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.6199	Dev acc: 73.0726	Dev fscore(p/r/f): (75.8197/77.1637/76.4858)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.0565	Dev acc: 67.3743	Dev fscore(p/r/f): (68.6013/75.1825/71.7413)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 1.2859	Dev acc: 75.6425	Dev fscore(p/r/f): (78.9959/80.3962/79.6899)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 0.9824	Dev acc: 65.0279	Dev fscore(p/r/f): (63.4731/66.3191/64.8649)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 26	Dev loss: 1.1541	Dev acc: 75.7542	Dev fscore(p/r/f): (77.9798/80.5005/79.2201)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.0196	Dev acc: 64.1341	Dev fscore(p/r/f): (64.1171/70.8029/67.2944)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 4	Dev loss: 0.5382	Dev acc: 75.5307	Dev fscore(p/r/f): (80.9013/78.6236/79.7462)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 0.9032	Dev acc: 66.3687	Dev fscore(p/r/f): (66.0606/68.1960/67.1113)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 0.7885	Dev acc: 74.6369	Dev fscore(p/r/f): (78.7879/78.6236/78.7056)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 1.0075	Dev acc: 66.9274	Dev fscore(p/r/f): (68.8337/75.0782/71.8204)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 59	Dev loss: 1.1366	Dev acc: 73.8547	Dev fscore(p/r/f): (74.7275/78.6236/76.6260)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 76	Dev loss: 0.8659	Dev acc: 60.2235	Dev fscore(p/r/f): (60.2817/66.9447/63.4387)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 0.9162	Dev acc: 71.9553	Dev fscore(p/r/f): (72.5490/77.1637/74.7852)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.0156	Dev acc: 64.0223	Dev fscore(p/r/f): (64.6484/69.0302/66.7675)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 62	Dev loss: 0.9277	Dev acc: 59.5531	Dev fscore(p/r/f): (59.3992/63.9208/61.5771)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 55	Dev loss: 0.8946	Dev acc: 71.5084	Dev fscore(p/r/f): (77.3523/73.7226/75.4939)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 0.8422	Dev acc: 68.4916	Dev fscore(p/r/f): (69.8058/74.9739/72.2976)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 0.5794	Dev acc: 72.6257	Dev fscore(p/r/f): (73.0808/76.4338/74.7197)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 0.9220	Dev acc: 64.6927	Dev fscore(p/r/f): (64.0530/65.5892/64.8120)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 36	Dev loss: 1.0433	Dev acc: 76.0894	Dev fscore(p/r/f): (77.4000/80.7091/79.0199)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 0.8314	Dev acc: 64.9162	Dev fscore(p/r/f): (63.6893/68.4046/65.9628)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.0142	Dev acc: 72.0670	Dev fscore(p/r/f): (72.2973/78.1022/75.0877)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 53	Dev loss: 1.0547	Dev acc: 59.2179	Dev fscore(p/r/f): (58.7488/62.6694/60.6458)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.1787	Dev acc: 62.4581	Dev fscore(p/r/f): (63.1086/70.2815/66.5022)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.0722	Dev acc: 74.4134	Dev fscore(p/r/f): (78.1646/77.2680/77.7137)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.2383	Dev acc: 48.6034	Dev fscore(p/r/f): (46.7615/61.7310/53.2135)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 75	Dev loss: 1.2227	Dev acc: 56.3128	Dev fscore(p/r/f): (56.9203/64.7550/60.5854)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 0.6926	Dev acc: 73.0726	Dev fscore(p/r/f): (74.4637/76.0167/75.2322)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.0602	Dev acc: 57.8771	Dev fscore(p/r/f): (55.5858/63.8165/59.4175)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 1.0622	Dev acc: 74.3017	Dev fscore(p/r/f): (75.6098/77.5808/76.5826)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.1338	Dev acc: 64.4693	Dev fscore(p/r/f): (65.4784/72.7842/68.9383)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.9644	Dev acc: 72.4022	Dev fscore(p/r/f): (72.6108/76.8509/74.6707)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.1034	Dev acc: 51.2849	Dev fscore(p/r/f): (47.4326/56.8300/51.7078)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5887	Dev acc: 72.2905	Dev fscore(p/r/f): (75.0000/76.0167/75.5049)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 0.9998	Dev acc: 51.1732	Dev fscore(p/r/f): (51.6032/53.7018/52.6316)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.0619	Dev acc: 60.6704	Dev fscore(p/r/f): (60.0764/65.5892/62.7119)
+
+
+lr: 0.005000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 0.6021	Dev acc: 73.8547	Dev fscore(p/r/f): (75.8163/77.4765/76.6374)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 52	Dev loss: 1.0666	Dev acc: 57.9888	Dev fscore(p/r/f): (56.9828/68.9260/62.3879)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.2368	Dev acc: 48.7151	Dev fscore(p/r/f): (47.3109/58.7070/52.3965)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 46	Dev loss: 1.3973	Dev acc: 47.5978	Dev fscore(p/r/f): (49.0926/53.5975/51.2463)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 1.2838	Dev acc: 44.1341	Dev fscore(p/r/f): (44.9558/52.9718/48.6357)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 1.4829	Dev acc: 51.9553	Dev fscore(p/r/f): (56.6123/65.1721/60.5914)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.3261	Dev acc: 48.8268	Dev fscore(p/r/f): (51.1450/55.8916/53.4131)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 1.3724	Dev acc: 51.5084	Dev fscore(p/r/f): (50.1779/58.8113/54.1527)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 91	Dev loss: 1.5582	Dev acc: 48.6034	Dev fscore(p/r/f): (47.9846/52.1376/49.9750)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 11	Dev loss: 1.0234	Dev acc: 75.8659	Dev fscore(p/r/f): (77.8112/80.8133/79.2839)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 91	Dev loss: 1.4841	Dev acc: 37.9888	Dev fscore(p/r/f): (45.2815/57.0386/50.4845)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 1.0058	Dev acc: 76.4246	Dev fscore(p/r/f): (80.3571/79.7706/80.0628)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 78	Dev loss: 1.1281	Dev acc: 54.1899	Dev fscore(p/r/f): (57.4294/65.6934/61.2840)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 4	Dev loss: 0.5596	Dev acc: 75.4190	Dev fscore(p/r/f): (80.6522/77.3723/78.9782)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 62	Dev loss: 1.3288	Dev acc: 52.7374	Dev fscore(p/r/f): (52.8810/59.3326/55.9214)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 1.2324	Dev acc: 43.2402	Dev fscore(p/r/f): (43.8953/47.2367/45.5048)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 20	Dev loss: 0.7636	Dev acc: 74.6369	Dev fscore(p/r/f): (81.3187/77.1637/79.1867)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.3843	Dev acc: 34.1899	Dev fscore(p/r/f): (44.4540/53.9103/48.7276)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 1.4006	Dev acc: 74.4134	Dev fscore(p/r/f): (78.3590/79.6663/79.0072)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 0.9687	Dev acc: 58.2123	Dev fscore(p/r/f): (62.1649/62.8780/62.5194)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 0.9025	Dev acc: 73.2961	Dev fscore(p/r/f): (74.4071/78.5193/76.4079)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 1.0907	Dev acc: 59.4413	Dev fscore(p/r/f): (58.1567/65.7977/61.7417)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 0.9378	Dev acc: 74.6369	Dev fscore(p/r/f): (78.4067/77.9979/78.2018)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 91	Dev loss: 1.3483	Dev acc: 52.7374	Dev fscore(p/r/f): (50.7313/57.8728/54.0672)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.6194	Dev acc: 46.8156	Dev fscore(p/r/f): (52.3077/63.8165/57.4918)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.2892	Dev acc: 35.9777	Dev fscore(p/r/f): (41.6376/49.8436/45.3726)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 78	Dev loss: 0.5415	Dev acc: 73.5196	Dev fscore(p/r/f): (77.0594/77.0594/77.0594)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 1.6579	Dev acc: 44.8045	Dev fscore(p/r/f): (47.0476/51.5120/49.1787)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 59	Dev loss: 1.3463	Dev acc: 76.0894	Dev fscore(p/r/f): (78.2258/80.9176/79.5489)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.5960	Dev acc: 45.0279	Dev fscore(p/r/f): (43.4075/52.8676/47.6728)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 75	Dev loss: 0.9599	Dev acc: 72.2905	Dev fscore(p/r/f): (72.9045/77.9979/75.3652)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 87	Dev loss: 1.7159	Dev acc: 33.9665	Dev fscore(p/r/f): (39.8509/50.1564/44.4137)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.3486	Dev acc: 41.8994	Dev fscore(p/r/f): (46.4880/52.4505/49.2896)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.7502	Dev acc: 74.7486	Dev fscore(p/r/f): (80.9989/77.7894/79.3617)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.3525	Dev acc: 51.8436	Dev fscore(p/r/f): (50.4050/58.3942/54.1063)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.3859	Dev acc: 37.2067	Dev fscore(p/r/f): (38.0444/44.6298/41.0749)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 0.6114	Dev acc: 74.5251	Dev fscore(p/r/f): (78.3784/78.6236/78.5008)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.6396	Dev acc: 29.1620	Dev fscore(p/r/f): (37.1402/41.7101/39.2927)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 47	Dev loss: 1.0844	Dev acc: 74.4134	Dev fscore(p/r/f): (76.7821/78.6236/77.6919)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 65	Dev loss: 1.1714	Dev acc: 54.5251	Dev fscore(p/r/f): (57.7611/64.0250/60.7319)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 90	Dev loss: 1.0296	Dev acc: 73.1844	Dev fscore(p/r/f): (74.9000/78.1022/76.4676)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.4791	Dev acc: 44.4693	Dev fscore(p/r/f): (45.5663/54.1189/49.4757)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 65	Dev loss: 1.3950	Dev acc: 38.9944	Dev fscore(p/r/f): (41.5398/48.3837/44.7013)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 0.7471	Dev acc: 74.3017	Dev fscore(p/r/f): (80.3900/77.3723/78.8523)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 2.6292	Dev acc: 34.1899	Dev fscore(p/r/f): (42.2421/54.2231/47.4886)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.6236	Dev acc: 25.1397	Dev fscore(p/r/f): (34.2640/42.2315/37.8328)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 0.5927	Dev acc: 72.4022	Dev fscore(p/r/f): (74.4835/75.1825/74.8313)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 61	Dev loss: 2.2137	Dev acc: 31.5084	Dev fscore(p/r/f): (36.8564/42.5443/39.4966)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 11	Dev loss: 1.1953	Dev acc: 75.3073	Dev fscore(p/r/f): (78.3181/80.6048/79.4450)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 2.0928	Dev acc: 31.0615	Dev fscore(p/r/f): (34.1730/42.4400/37.8605)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 1.2000	Dev acc: 75.8659	Dev fscore(p/r/f): (78.1910/81.1262/79.6315)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.8492	Dev acc: 31.6201	Dev fscore(p/r/f): (38.0208/45.6726/41.4969)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 4	Dev loss: 0.5263	Dev acc: 75.5307	Dev fscore(p/r/f): (80.7036/78.9364/79.8102)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.4746	Dev acc: 32.6257	Dev fscore(p/r/f): (34.5336/44.0042/38.6978)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6406	Dev acc: 75.5307	Dev fscore(p/r/f): (81.1219/78.4150/79.7455)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.9228	Dev acc: 30.8380	Dev fscore(p/r/f): (33.6275/39.7289/36.4245)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.8542	Dev acc: 29.6089	Dev fscore(p/r/f): (32.2307/39.6246/35.5472)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 79	Dev loss: 1.1705	Dev acc: 75.6425	Dev fscore(p/r/f): (77.0000/80.2920/78.6115)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.8905	Dev acc: 26.2570	Dev fscore(p/r/f): (33.7209/39.3118/36.3024)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 0.7533	Dev acc: 71.5084	Dev fscore(p/r/f): (72.1457/76.4338/74.2278)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 1.8966	Dev acc: 33.0726	Dev fscore(p/r/f): (36.3790/44.8384/40.1681)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 0.7606	Dev acc: 71.6201	Dev fscore(p/r/f): (75.3653/75.2868/75.3260)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 90	Dev loss: 1.9597	Dev acc: 30.9497	Dev fscore(p/r/f): (31.8910/41.5016/36.0671)
+
+
+lr: 0.000100, drop_out: 0.300000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 56	Dev loss: 1.5983	Dev acc: 32.4022	Dev fscore(p/r/f): (34.8794/39.2075/36.9170)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 0.5934	Dev acc: 74.7486	Dev fscore(p/r/f): (76.3988/78.3107/77.3429)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 2.7720	Dev acc: 30.7263	Dev fscore(p/r/f): (38.5274/46.9239/42.3131)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 3	Dev loss: 1.5376	Dev acc: 18.8827	Dev fscore(p/r/f): (26.9231/18.2482/21.7526)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 1.3190	Dev acc: 75.6425	Dev fscore(p/r/f): (77.7778/79.5620/78.6598)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 75	Dev loss: 2.9701	Dev acc: 19.6648	Dev fscore(p/r/f): (24.6841/30.5527/27.3066)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 2.5862	Dev acc: 21.4525	Dev fscore(p/r/f): (28.0776/34.7237/31.0490)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 0.9074	Dev acc: 72.0670	Dev fscore(p/r/f): (73.9087/77.6851/75.7499)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 52	Dev loss: 2.6095	Dev acc: 19.5531	Dev fscore(p/r/f): (23.0556/25.9645/24.4237)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.8766	Dev acc: 19.3296	Dev fscore(p/r/f): (19.8920/23.0448/21.3527)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 36	Dev loss: 0.8135	Dev acc: 74.5251	Dev fscore(p/r/f): (78.1513/77.5808/77.8650)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 3	Dev loss: 1.5193	Dev acc: 18.8827	Dev fscore(p/r/f): (26.5723/17.6225/21.1912)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.7066	Dev acc: 72.5140	Dev fscore(p/r/f): (75.6250/75.7039/75.6644)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 3.1882	Dev acc: 19.2179	Dev fscore(p/r/f): (23.3992/30.8655/26.6187)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 74	Dev loss: 2.3980	Dev acc: 26.7039	Dev fscore(p/r/f): (36.2627/40.8759/38.4314)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 70	Dev loss: 1.0949	Dev acc: 74.4134	Dev fscore(p/r/f): (76.3265/77.9979/77.1532)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 1.9686	Dev acc: 19.6648	Dev fscore(p/r/f): (26.6721/34.0980/29.9314)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 99	Dev loss: 1.0575	Dev acc: 70.6145	Dev fscore(p/r/f): (69.9038/75.8081/72.7364)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 3	Dev loss: 1.5219	Dev acc: 17.8771	Dev fscore(p/r/f): (25.4649/18.5610/21.4717)
+
+
+lr: 0.000100, drop_out: 0.500000, Drnn: 2, Arnn: 4, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 3	Dev loss: 1.5308	Dev acc: 18.4358	Dev fscore(p/r/f): (26.5185/18.6653/21.9094)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.6387	Dev acc: 71.8436	Dev fscore(p/r/f): (76.3158/75.5996/75.9560)
+
+
+lr: 0.005000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.5865	Dev acc: 73.5196	Dev fscore(p/r/f): (74.5984/77.4765/76.0102)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 48	Dev loss: 1.4426	Dev acc: 76.8715	Dev fscore(p/r/f): (79.4088/81.2304/80.3093)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 12	Dev loss: 0.8589	Dev acc: 74.8603	Dev fscore(p/r/f): (77.5739/79.3535/78.4536)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 24	Dev loss: 1.1118	Dev acc: 75.8659	Dev fscore(p/r/f): (81.8966/79.2492/80.5511)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 7	Dev loss: 0.5687	Dev acc: 75.1955	Dev fscore(p/r/f): (79.8507/78.1022/78.9668)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.4275	Dev acc: 75.7542	Dev fscore(p/r/f): (78.9907/79.9791/79.4819)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 0.9552	Dev acc: 72.9609	Dev fscore(p/r/f): (75.5308/77.8936/76.6940)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.5846	Dev acc: 73.9665	Dev fscore(p/r/f): (78.7302/77.5808/78.1513)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 96	Dev loss: 0.6399	Dev acc: 74.0782	Dev fscore(p/r/f): (77.6851/77.6851/77.6851)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 33	Dev loss: 1.0765	Dev acc: 76.0894	Dev fscore(p/r/f): (78.8127/80.2920/79.5455)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.0040	Dev acc: 73.8547	Dev fscore(p/r/f): (76.5432/77.5808/77.0585)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 68	Dev loss: 1.1112	Dev acc: 75.9777	Dev fscore(p/r/f): (81.3449/78.2065/79.7448)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 90	Dev loss: 0.6108	Dev acc: 75.0838	Dev fscore(p/r/f): (78.3107/78.3107/78.3107)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.4620	Dev acc: 74.7486	Dev fscore(p/r/f): (77.4619/79.5620/78.4979)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 0.9649	Dev acc: 73.1844	Dev fscore(p/r/f): (74.6747/77.7894/76.2002)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 0.8994	Dev acc: 74.1899	Dev fscore(p/r/f): (78.6091/77.7894/78.1971)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.6606	Dev acc: 73.1844	Dev fscore(p/r/f): (76.4953/76.0167/76.2552)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 12	Dev loss: 1.2601	Dev acc: 75.3073	Dev fscore(p/r/f): (78.3009/79.7706/79.0289)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.4862	Dev acc: 76.7598	Dev fscore(p/r/f): (79.4297/81.3347/80.3709)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 1.0173	Dev acc: 75.1955	Dev fscore(p/r/f): (82.8667/77.1637/79.9136)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.3111	Dev acc: 74.7486	Dev fscore(p/r/f): (81.8880/77.7894/79.7861)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 84	Dev loss: 1.1453	Dev acc: 74.8603	Dev fscore(p/r/f): (76.3158/78.6236/77.4525)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 0.8824	Dev acc: 71.2849	Dev fscore(p/r/f): (73.5323/77.0594/75.2546)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 1.1143	Dev acc: 72.4022	Dev fscore(p/r/f): (75.4717/75.0782/75.2744)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.5532	Dev acc: 72.9609	Dev fscore(p/r/f): (75.7732/76.6423/76.2053)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.3047	Dev acc: 75.9777	Dev fscore(p/r/f): (78.1059/79.9791/79.0314)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 0.7750	Dev acc: 70.5028	Dev fscore(p/r/f): (71.1089/76.2252/73.5783)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 26	Dev loss: 0.7085	Dev acc: 72.4022	Dev fscore(p/r/f): (77.2246/76.0167/76.6159)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 0.6347	Dev acc: 73.8547	Dev fscore(p/r/f): (76.1224/77.7894/76.9469)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 1.0427	Dev acc: 73.9665	Dev fscore(p/r/f): (74.9251/78.2065/76.5306)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 68	Dev loss: 1.0322	Dev acc: 71.6201	Dev fscore(p/r/f): (73.2932/76.1210/74.6803)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 16	Dev loss: 0.6294	Dev acc: 71.3966	Dev fscore(p/r/f): (73.7384/74.6611/74.1969)
+
+
+lr: 0.005000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 0.5254	Dev acc: 73.0726	Dev fscore(p/r/f): (75.3846/76.6423/76.0083)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 34	Dev loss: 1.8165	Dev acc: 75.9777	Dev fscore(p/r/f): (77.9234/80.6048/79.2414)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 64	Dev loss: 1.5092	Dev acc: 76.7598	Dev fscore(p/r/f): (79.4450/80.6048/80.0207)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 7	Dev loss: 0.5587	Dev acc: 74.9721	Dev fscore(p/r/f): (80.1502/77.8936/79.0058)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.6955	Dev acc: 74.7486	Dev fscore(p/r/f): (79.4055/77.9979/78.6954)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.4478	Dev acc: 75.7542	Dev fscore(p/r/f): (77.4975/80.0834/78.7692)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.8087	Dev acc: 75.1955	Dev fscore(p/r/f): (77.1169/79.7706/78.4213)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5541	Dev acc: 75.4190	Dev fscore(p/r/f): (78.1633/79.8749/79.0098)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 24	Dev loss: 0.5844	Dev acc: 74.7486	Dev fscore(p/r/f): (77.7663/78.4150/78.0893)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.9676	Dev acc: 76.4246	Dev fscore(p/r/f): (77.8455/79.8749/78.8471)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 1.8273	Dev acc: 76.2011	Dev fscore(p/r/f): (78.1470/80.9176/79.5082)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5532	Dev acc: 76.3128	Dev fscore(p/r/f): (80.2105/79.4578/79.8324)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.5055	Dev acc: 75.4190	Dev fscore(p/r/f): (78.5270/78.9364/78.7311)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 0.9395	Dev acc: 74.3017	Dev fscore(p/r/f): (77.5154/78.7278/78.1169)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 55	Dev loss: 1.3430	Dev acc: 73.1844	Dev fscore(p/r/f): (73.5236/77.8936/75.6456)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 29	Dev loss: 0.7360	Dev acc: 73.7430	Dev fscore(p/r/f): (79.2696/76.9552/78.0952)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 0.6788	Dev acc: 72.0670	Dev fscore(p/r/f): (76.9723/75.2868/76.1202)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 54	Dev loss: 1.2050	Dev acc: 76.3128	Dev fscore(p/r/f): (79.2049/81.0219/80.1031)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 1.0576	Dev acc: 76.6480	Dev fscore(p/r/f): (79.9793/80.3962/80.1872)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 2	Dev loss: 0.4828	Dev acc: 74.4134	Dev fscore(p/r/f): (78.4272/76.9552/77.6842)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6073	Dev acc: 74.7486	Dev fscore(p/r/f): (80.1948/77.2680/78.7042)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 33	Dev loss: 1.0583	Dev acc: 76.2011	Dev fscore(p/r/f): (79.2434/80.8133/80.0207)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 41	Dev loss: 1.0974	Dev acc: 75.7542	Dev fscore(p/r/f): (77.8230/79.7706/78.7848)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5733	Dev acc: 75.7542	Dev fscore(p/r/f): (80.2548/78.8321/79.5371)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.4988	Dev acc: 75.6425	Dev fscore(p/r/f): (78.5492/79.0407/78.7942)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 1.1567	Dev acc: 77.2067	Dev fscore(p/r/f): (80.1867/80.6048/80.3952)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.6974	Dev acc: 77.2067	Dev fscore(p/r/f): (79.6107/81.0219/80.3101)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 9	Dev loss: 0.4734	Dev acc: 76.4246	Dev fscore(p/r/f): (80.7651/79.2492/80.0000)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.6393	Dev acc: 75.9777	Dev fscore(p/r/f): (80.5970/78.8321/79.7048)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 72	Dev loss: 1.3654	Dev acc: 74.0782	Dev fscore(p/r/f): (78.1022/78.1022/78.1022)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 68	Dev loss: 1.2824	Dev acc: 72.5140	Dev fscore(p/r/f): (75.0255/76.7466/75.8763)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.7305	Dev acc: 74.9721	Dev fscore(p/r/f): (80.8855/78.1022/79.4695)
+
+
+lr: 0.001000, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 0.7837	Dev acc: 73.4078	Dev fscore(p/r/f): (78.0851/76.5381/77.3038)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.9602	Dev acc: 76.3128	Dev fscore(p/r/f): (78.4254/79.9791/79.1946)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 28	Dev loss: 1.3278	Dev acc: 76.4246	Dev fscore(p/r/f): (78.4990/80.7091/79.5887)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.6918	Dev acc: 74.9721	Dev fscore(p/r/f): (80.6134/76.7466/78.6325)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.6779	Dev acc: 75.0838	Dev fscore(p/r/f): (81.1341/77.5808/79.3177)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.9878	Dev acc: 75.9777	Dev fscore(p/r/f): (78.4836/79.8749/79.1731)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 0.9947	Dev acc: 75.3073	Dev fscore(p/r/f): (77.5635/79.6663/78.6008)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5606	Dev acc: 75.4190	Dev fscore(p/r/f): (78.9916/78.4150/78.7023)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.7285	Dev acc: 74.1899	Dev fscore(p/r/f): (78.4664/77.8936/78.1790)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 1.0676	Dev acc: 76.9832	Dev fscore(p/r/f): (80.0420/79.4578/79.7488)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 30	Dev loss: 1.0830	Dev acc: 75.9777	Dev fscore(p/r/f): (78.2299/80.1877/79.1967)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5978	Dev acc: 76.0894	Dev fscore(p/r/f): (79.8742/79.4578/79.6654)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 0.9286	Dev acc: 75.6425	Dev fscore(p/r/f): (79.0239/79.3535/79.1883)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.5549	Dev acc: 74.3017	Dev fscore(p/r/f): (77.8234/79.0407/78.4273)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 53	Dev loss: 1.3914	Dev acc: 72.1788	Dev fscore(p/r/f): (72.4951/76.9552/74.6586)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 1.0082	Dev acc: 74.8603	Dev fscore(p/r/f): (80.5585/78.2065/79.3651)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 55	Dev loss: 0.8025	Dev acc: 72.6257	Dev fscore(p/r/f): (74.4898/76.1210/75.2965)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 1.1922	Dev acc: 75.9777	Dev fscore(p/r/f): (78.8934/80.2920/79.5866)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 16	Dev loss: 0.9533	Dev acc: 76.5363	Dev fscore(p/r/f): (80.1670/80.0834/80.1252)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 1.0626	Dev acc: 74.9721	Dev fscore(p/r/f): (81.1610/77.2680/79.1667)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 4	Dev loss: 0.4619	Dev acc: 74.6369	Dev fscore(p/r/f): (78.8009/76.7466/77.7602)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.9900	Dev acc: 76.5363	Dev fscore(p/r/f): (79.8762/80.7091/80.2905)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 1.5144	Dev acc: 75.1955	Dev fscore(p/r/f): (77.2497/79.6663/78.4394)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 16	Dev loss: 0.5104	Dev acc: 75.6425	Dev fscore(p/r/f): (80.6830/78.8321/79.7468)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 1.1899	Dev acc: 74.9721	Dev fscore(p/r/f): (78.1347/78.6236/78.3784)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 45	Dev loss: 1.4151	Dev acc: 77.0950	Dev fscore(p/r/f): (79.6524/81.2304/80.4337)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.6332	Dev acc: 77.2067	Dev fscore(p/r/f): (79.2857/81.0219/80.1444)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 9	Dev loss: 0.4735	Dev acc: 76.5363	Dev fscore(p/r/f): (80.9574/79.3535/80.1474)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5278	Dev acc: 75.9777	Dev fscore(p/r/f): (79.3388/80.0834/79.7094)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 47	Dev loss: 1.2171	Dev acc: 73.8547	Dev fscore(p/r/f): (77.9979/77.9979/77.9979)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 1.4608	Dev acc: 72.2905	Dev fscore(p/r/f): (74.6694/76.5381/75.5922)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.7427	Dev acc: 74.5251	Dev fscore(p/r/f): (80.4135/77.0594/78.7007)
+
+
+lr: 0.001000, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 0.9353	Dev acc: 72.1788	Dev fscore(p/r/f): (77.8618/75.1825/76.4987)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 57	Dev loss: 1.7272	Dev acc: 76.3128	Dev fscore(p/r/f): (78.4772/80.6048/79.5267)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 70	Dev loss: 1.6825	Dev acc: 76.7598	Dev fscore(p/r/f): (78.8832/81.0219/79.9383)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 6	Dev loss: 0.4968	Dev acc: 75.1955	Dev fscore(p/r/f): (80.0866/77.1637/78.5980)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.6618	Dev acc: 75.3073	Dev fscore(p/r/f): (79.8925/77.4765/78.6660)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 72	Dev loss: 0.9887	Dev acc: 76.0894	Dev fscore(p/r/f): (78.0142/80.2920/79.1367)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 1.5589	Dev acc: 74.3017	Dev fscore(p/r/f): (75.6839/77.8936/76.7729)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 15	Dev loss: 0.5507	Dev acc: 74.8603	Dev fscore(p/r/f): (79.8715/77.7894/78.8167)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.5146	Dev acc: 74.9721	Dev fscore(p/r/f): (77.5510/79.2492/78.3909)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 88	Dev loss: 1.2766	Dev acc: 76.9832	Dev fscore(p/r/f): (79.0010/80.8133/79.8969)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 1.3808	Dev acc: 75.9777	Dev fscore(p/r/f): (78.1282/80.0834/79.0937)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5937	Dev acc: 76.2011	Dev fscore(p/r/f): (79.5812/79.2492/79.4148)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 0.9340	Dev acc: 74.9721	Dev fscore(p/r/f): (80.0000/77.1637/78.5563)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 62	Dev loss: 1.5793	Dev acc: 74.7486	Dev fscore(p/r/f): (77.8579/78.8321/78.3420)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 59	Dev loss: 1.4942	Dev acc: 71.9553	Dev fscore(p/r/f): (72.2821/76.9552/74.5455)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.0904	Dev acc: 73.4078	Dev fscore(p/r/f): (80.8840/76.3295/78.5408)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 24	Dev loss: 0.6178	Dev acc: 71.5084	Dev fscore(p/r/f): (74.3776/74.7654/74.5710)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 9	Dev loss: 0.9680	Dev acc: 75.8659	Dev fscore(p/r/f): (78.7321/80.2920/79.5044)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 26	Dev loss: 1.1503	Dev acc: 76.6480	Dev fscore(p/r/f): (79.3033/80.7091/80.0000)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 85	Dev loss: 1.0390	Dev acc: 74.4134	Dev fscore(p/r/f): (80.2376/77.4765/78.8329)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6070	Dev acc: 74.4134	Dev fscore(p/r/f): (80.5708/76.5381/78.5027)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 57	Dev loss: 1.3342	Dev acc: 76.3128	Dev fscore(p/r/f): (79.2997/80.2920/79.7927)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 43	Dev loss: 1.0295	Dev acc: 75.1955	Dev fscore(p/r/f): (77.3509/79.7706/78.5421)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 48	Dev loss: 0.6502	Dev acc: 76.0894	Dev fscore(p/r/f): (83.2967/79.0407/81.1129)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5019	Dev acc: 75.5307	Dev fscore(p/r/f): (78.0639/79.0407/78.5492)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 42	Dev loss: 1.2527	Dev acc: 77.2067	Dev fscore(p/r/f): (80.3330/80.5005/80.4167)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 46	Dev loss: 1.4256	Dev acc: 76.4246	Dev fscore(p/r/f): (78.2828/80.8133/79.5280)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 9	Dev loss: 0.4699	Dev acc: 76.5363	Dev fscore(p/r/f): (80.8511/79.2492/80.0421)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.6993	Dev acc: 76.0894	Dev fscore(p/r/f): (81.6703/78.5193/80.0638)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 75	Dev loss: 1.5306	Dev acc: 73.9665	Dev fscore(p/r/f): (78.0665/78.3107/78.1884)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.5105	Dev acc: 72.4022	Dev fscore(p/r/f): (74.3028/77.7894/76.0061)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.7510	Dev acc: 74.5251	Dev fscore(p/r/f): (82.4385/76.8509/79.5467)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.6450	Dev acc: 72.5140	Dev fscore(p/r/f): (77.2487/76.1210/76.6807)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.4418	Dev acc: 77.2067	Dev fscore(p/r/f): (80.0414/80.7091/80.3738)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.8197	Dev acc: 75.9777	Dev fscore(p/r/f): (81.2500/78.6236/79.9152)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 37	Dev loss: 1.2904	Dev acc: 76.5363	Dev fscore(p/r/f): (80.1867/80.6048/80.3952)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 1.4224	Dev acc: 74.9721	Dev fscore(p/r/f): (77.0325/79.0407/78.0237)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5292	Dev acc: 74.6369	Dev fscore(p/r/f): (77.2681/79.0407/78.1443)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 32	Dev loss: 1.0531	Dev acc: 75.9777	Dev fscore(p/r/f): (77.9022/79.7706/78.8253)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 18	Dev loss: 0.5170	Dev acc: 75.7542	Dev fscore(p/r/f): (79.6610/78.4150/79.0331)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.5238	Dev acc: 73.1844	Dev fscore(p/r/f): (74.8491/77.5808/76.1905)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.0668	Dev acc: 72.1788	Dev fscore(p/r/f): (76.5328/75.4953/76.0105)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 81	Dev loss: 1.2301	Dev acc: 77.2067	Dev fscore(p/r/f): (79.8569/81.4390/80.6402)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 18	Dev loss: 0.9597	Dev acc: 77.2067	Dev fscore(p/r/f): (80.7492/80.9176/80.8333)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 0.9765	Dev acc: 75.4190	Dev fscore(p/r/f): (82.0372/78.1022/80.0214)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 23	Dev loss: 0.7973	Dev acc: 75.9777	Dev fscore(p/r/f): (78.9959/80.3962/79.6899)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 94	Dev loss: 1.2626	Dev acc: 76.6480	Dev fscore(p/r/f): (80.3365/79.6663/80.0000)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5142	Dev acc: 74.9721	Dev fscore(p/r/f): (78.1931/78.5193/78.3559)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 25	Dev loss: 0.9641	Dev acc: 76.8715	Dev fscore(p/r/f): (80.0208/80.1877/80.1042)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.1419	Dev acc: 76.9832	Dev fscore(p/r/f): (79.7508/80.0834/79.9168)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5128	Dev acc: 76.2011	Dev fscore(p/r/f): (81.0180/79.6663/80.3365)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 1.1435	Dev acc: 73.2961	Dev fscore(p/r/f): (77.2586/77.5808/77.4194)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 0.9702	Dev acc: 72.1788	Dev fscore(p/r/f): (73.8119/76.1210/74.9487)
+
+
+lr: 0.001000, drop_out: 0.300000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.6767	Dev acc: 72.7374	Dev fscore(p/r/f): (77.3305/76.1210/76.7210)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 24	Dev loss: 1.4623	Dev acc: 75.5307	Dev fscore(p/r/f): (77.9022/79.7706/78.8253)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.5952	Dev acc: 77.2067	Dev fscore(p/r/f): (79.7352/81.6475/80.6801)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 6	Dev loss: 0.5104	Dev acc: 75.0838	Dev fscore(p/r/f): (80.4372/76.7466/78.5486)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 15	Dev loss: 0.6730	Dev acc: 74.6369	Dev fscore(p/r/f): (78.8687/77.0594/77.9536)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.9474	Dev acc: 75.9777	Dev fscore(p/r/f): (78.1186/79.6663/78.8849)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.7295	Dev acc: 74.6369	Dev fscore(p/r/f): (75.7485/79.1449/77.4095)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 43	Dev loss: 1.0503	Dev acc: 75.4190	Dev fscore(p/r/f): (78.6299/80.1877/79.4011)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.5528	Dev acc: 74.8603	Dev fscore(p/r/f): (77.2036/79.4578/78.3145)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 54	Dev loss: 1.6555	Dev acc: 76.7598	Dev fscore(p/r/f): (79.2608/80.5005/79.8758)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 41	Dev loss: 1.3647	Dev acc: 76.0894	Dev fscore(p/r/f): (78.6448/79.8749/79.2550)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 9	Dev loss: 0.4718	Dev acc: 75.8659	Dev fscore(p/r/f): (80.0633/79.1449/79.6015)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.5539	Dev acc: 75.1955	Dev fscore(p/r/f): (76.8453/79.2492/78.0287)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 91	Dev loss: 1.9149	Dev acc: 74.1899	Dev fscore(p/r/f): (77.2634/78.3107/77.7835)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.5592	Dev acc: 72.5140	Dev fscore(p/r/f): (73.7263/76.9552/75.3061)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 93	Dev loss: 1.0142	Dev acc: 74.5251	Dev fscore(p/r/f): (79.4274/78.1022/78.7592)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 0.9385	Dev acc: 72.0670	Dev fscore(p/r/f): (77.1123/75.1825/76.1352)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 1.1544	Dev acc: 75.8659	Dev fscore(p/r/f): (78.4334/80.3962/79.4027)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 1.3804	Dev acc: 77.0950	Dev fscore(p/r/f): (79.9386/81.4390/80.6818)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 24	Dev loss: 0.9557	Dev acc: 74.5251	Dev fscore(p/r/f): (81.7073/76.8509/79.2047)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.6181	Dev acc: 75.3073	Dev fscore(p/r/f): (81.5587/77.4765/79.4652)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 1.0364	Dev acc: 76.3128	Dev fscore(p/r/f): (80.0416/80.2920/80.1666)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 69	Dev loss: 1.3365	Dev acc: 75.3073	Dev fscore(p/r/f): (77.2449/78.9364/78.0815)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.7649	Dev acc: 76.7598	Dev fscore(p/r/f): (81.8570/79.9791/80.9072)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.5064	Dev acc: 75.3073	Dev fscore(p/r/f): (79.1186/78.6236/78.8703)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 1.3022	Dev acc: 76.9832	Dev fscore(p/r/f): (79.7938/80.7091/80.2488)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 1.1439	Dev acc: 76.5363	Dev fscore(p/r/f): (79.5431/79.8749/79.7086)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 18	Dev loss: 0.6106	Dev acc: 76.3128	Dev fscore(p/r/f): (82.2511/79.2492/80.7223)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5316	Dev acc: 75.9777	Dev fscore(p/r/f): (78.8660/79.7706/79.3157)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 1.2599	Dev acc: 73.9665	Dev fscore(p/r/f): (78.2158/78.6236/78.4191)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 85	Dev loss: 1.2838	Dev acc: 73.1844	Dev fscore(p/r/f): (74.9750/78.1022/76.5066)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.7303	Dev acc: 74.5251	Dev fscore(p/r/f): (81.0929/77.3723/79.1889)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.7046	Dev acc: 73.5196	Dev fscore(p/r/f): (78.0000/77.2680/77.6323)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 95	Dev loss: 1.5566	Dev acc: 77.2067	Dev fscore(p/r/f): (79.1667/81.2304/80.1853)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 7	Dev loss: 0.5337	Dev acc: 74.5251	Dev fscore(p/r/f): (79.8715/77.7894/78.8167)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 97	Dev loss: 1.4904	Dev acc: 74.5251	Dev fscore(p/r/f): (76.2000/79.4578/77.7948)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 37	Dev loss: 0.6665	Dev acc: 75.1955	Dev fscore(p/r/f): (80.2589/77.5808/78.8971)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 54	Dev loss: 1.3152	Dev acc: 76.5363	Dev fscore(p/r/f): (78.4758/79.4578/78.9637)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5496	Dev acc: 75.4190	Dev fscore(p/r/f): (78.2564/79.5620/78.9038)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 89	Dev loss: 1.1554	Dev acc: 73.1844	Dev fscore(p/r/f): (75.3550/77.4765/76.4010)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 55	Dev loss: 0.7792	Dev acc: 72.4022	Dev fscore(p/r/f): (77.9807/75.7039/76.8254)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.9142	Dev acc: 76.2011	Dev fscore(p/r/f): (78.5495/80.1877/79.3602)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 1.1294	Dev acc: 77.0950	Dev fscore(p/r/f): (80.3922/81.2304/80.8091)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 50	Dev loss: 0.9193	Dev acc: 75.1955	Dev fscore(p/r/f): (81.2364/78.1022/79.6385)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.9625	Dev acc: 75.7542	Dev fscore(p/r/f): (80.0209/79.7706/79.8956)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.9069	Dev acc: 75.9777	Dev fscore(p/r/f): (78.4913/80.2920/79.3814)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.6409	Dev acc: 75.1955	Dev fscore(p/r/f): (80.7074/78.5193/79.5983)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.9587	Dev acc: 76.9832	Dev fscore(p/r/f): (79.3422/80.5005/79.9172)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 1.0720	Dev acc: 77.0950	Dev fscore(p/r/f): (79.9380/80.6048/80.2700)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5128	Dev acc: 75.9777	Dev fscore(p/r/f): (80.7651/79.2492/80.0000)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 55	Dev loss: 1.2784	Dev acc: 73.4078	Dev fscore(p/r/f): (77.8361/77.2680/77.5510)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 1.1707	Dev acc: 72.9609	Dev fscore(p/r/f): (75.7949/77.0594/76.4219)
+
+
+lr: 0.001000, drop_out: 0.500000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 51	Dev loss: 0.8446	Dev acc: 73.0726	Dev fscore(p/r/f): (78.3172/75.7039/76.9883)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 80	Dev loss: 1.7642	Dev acc: 75.6425	Dev fscore(p/r/f): (76.3132/80.2920/78.2520)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 56	Dev loss: 1.5349	Dev acc: 75.7542	Dev fscore(p/r/f): (77.4226/80.8133/79.0816)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 15	Dev loss: 0.5644	Dev acc: 74.3017	Dev fscore(p/r/f): (76.9074/78.8321/77.8579)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 0.7354	Dev acc: 74.4134	Dev fscore(p/r/f): (78.9641/77.8936/78.4252)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 46	Dev loss: 1.3331	Dev acc: 74.5251	Dev fscore(p/r/f): (73.4634/78.5193/75.9073)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 42	Dev loss: 1.0749	Dev acc: 75.1955	Dev fscore(p/r/f): (75.7635/80.1877/77.9129)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5348	Dev acc: 73.4078	Dev fscore(p/r/f): (72.9651/78.5193/75.6404)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.5601	Dev acc: 74.9721	Dev fscore(p/r/f): (76.8453/79.2492/78.0287)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 1.6423	Dev acc: 75.1955	Dev fscore(p/r/f): (75.0739/79.4578/77.2036)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.6838	Dev acc: 75.0838	Dev fscore(p/r/f): (75.6436/79.6663/77.6028)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5689	Dev acc: 74.0782	Dev fscore(p/r/f): (74.4301/78.3107/76.3211)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5259	Dev acc: 75.4190	Dev fscore(p/r/f): (76.6734/78.8321/77.7378)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.2248	Dev acc: 73.1844	Dev fscore(p/r/f): (73.2283/77.5808/75.3418)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 74	Dev loss: 1.3742	Dev acc: 70.8380	Dev fscore(p/r/f): (71.2355/76.9552/73.9850)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.5520	Dev acc: 70.8380	Dev fscore(p/r/f): (72.7088/74.4526/73.5703)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.5746	Dev acc: 71.5084	Dev fscore(p/r/f): (71.8750/76.7466/74.2310)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 65	Dev loss: 1.4430	Dev acc: 75.7542	Dev fscore(p/r/f): (77.7218/80.3962/79.0364)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 35	Dev loss: 1.2003	Dev acc: 74.9721	Dev fscore(p/r/f): (77.3453/80.8133/79.0413)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.6418	Dev acc: 74.7486	Dev fscore(p/r/f): (78.5346/79.3535/78.9419)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.6018	Dev acc: 74.9721	Dev fscore(p/r/f): (78.8924/78.7278/78.8100)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.6618	Dev acc: 74.7486	Dev fscore(p/r/f): (74.3389/79.1449/76.6667)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 72	Dev loss: 1.4066	Dev acc: 74.7486	Dev fscore(p/r/f): (74.4888/79.7706/77.0393)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.5659	Dev acc: 73.0726	Dev fscore(p/r/f): (75.5509/75.0782/75.3138)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 27	Dev loss: 0.5089	Dev acc: 74.8603	Dev fscore(p/r/f): (76.9467/78.3107/77.6227)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 73	Dev loss: 1.3883	Dev acc: 74.9721	Dev fscore(p/r/f): (74.7296/79.2492/76.9231)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 76	Dev loss: 1.5243	Dev acc: 74.9721	Dev fscore(p/r/f): (74.9755/79.6663/77.2497)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 18	Dev loss: 0.4761	Dev acc: 74.5251	Dev fscore(p/r/f): (75.3260/78.3107/76.7894)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 18	Dev loss: 0.5126	Dev acc: 73.9665	Dev fscore(p/r/f): (75.9507/77.0594/76.5010)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 92	Dev loss: 1.5743	Dev acc: 73.4078	Dev fscore(p/r/f): (74.0413/78.5193/76.2146)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.5947	Dev acc: 71.9553	Dev fscore(p/r/f): (72.4852/76.6423/74.5058)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 33	Dev loss: 0.5890	Dev acc: 70.9497	Dev fscore(p/r/f): (73.6253/75.3910/74.4977)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5491	Dev acc: 70.8380	Dev fscore(p/r/f): (71.1045/75.1825/73.0867)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 34	Dev loss: 1.2593	Dev acc: 75.6425	Dev fscore(p/r/f): (76.4236/79.7706/78.0612)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.7344	Dev acc: 75.9777	Dev fscore(p/r/f): (77.7102/79.9791/78.8284)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.5479	Dev acc: 74.4134	Dev fscore(p/r/f): (76.9543/79.0407/77.9835)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.8438	Dev acc: 75.7542	Dev fscore(p/r/f): (76.3889/80.2920/78.2918)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5638	Dev acc: 75.4190	Dev fscore(p/r/f): (77.1109/79.0407/78.0639)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.6820	Dev acc: 75.7542	Dev fscore(p/r/f): (76.7233/80.0834/78.3673)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 13	Dev loss: 0.5384	Dev acc: 74.3017	Dev fscore(p/r/f): (74.4141/79.4578/76.8533)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 62	Dev loss: 1.4829	Dev acc: 73.1844	Dev fscore(p/r/f): (73.2558/78.8321/75.9417)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.6085	Dev acc: 71.2849	Dev fscore(p/r/f): (72.6721/74.8697/73.7545)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 86	Dev loss: 1.7533	Dev acc: 75.7542	Dev fscore(p/r/f): (76.8546/81.0219/78.8832)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 79	Dev loss: 1.6144	Dev acc: 75.0838	Dev fscore(p/r/f): (76.1622/80.2920/78.1726)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 10	Dev loss: 0.5405	Dev acc: 74.7486	Dev fscore(p/r/f): (77.0791/79.2492/78.1491)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 83	Dev loss: 1.7383	Dev acc: 74.6369	Dev fscore(p/r/f): (74.8778/79.8749/77.2957)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.6094	Dev acc: 75.5307	Dev fscore(p/r/f): (75.5382/80.5005/77.9404)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5195	Dev acc: 75.6425	Dev fscore(p/r/f): (77.2727/79.7706/78.5018)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 1.2684	Dev acc: 75.4190	Dev fscore(p/r/f): (75.0000/79.7706/77.3118)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 68	Dev loss: 1.6303	Dev acc: 75.5307	Dev fscore(p/r/f): (76.6634/80.5005/78.5351)
+
+
+lr: 0.000500, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 196	Dev loss: 1.2142	Dev acc: 62.5698	Dev fscore(p/r/f): (63.7236/69.2388/66.3668)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5059	Dev acc: 75.3073	Dev fscore(p/r/f): (75.9481/79.3535/77.6135)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 98	Dev loss: 1.5628	Dev acc: 73.4078	Dev fscore(p/r/f): (73.6686/77.8936/75.7223)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 76	Dev loss: 1.6881	Dev acc: 75.4190	Dev fscore(p/r/f): (75.8824/80.7091/78.2213)
+
+
+lr: 0.000500, drop_out: 0.300000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: True
+FINAL BEST RESULT: 	Epoch: 775	Dev loss: 1.7722	Dev acc: 65.8101	Dev fscore(p/r/f): (64.8946/73.8269/69.0732)
+
+
+lr: 0.000100, drop_out: 0.100000, Drnn: 2, Arnn: 3, RNN: GRU, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 31	Dev loss: 0.6378	Dev acc: 72.0670	Dev fscore(p/r/f): (74.5885/75.5996/75.0906)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 40	Dev loss: 1.4005	Dev acc: 75.5307	Dev fscore(p/r/f): (76.4475/81.2304/78.7664)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 56	Dev loss: 1.5380	Dev acc: 75.8659	Dev fscore(p/r/f): (77.6224/81.0219/79.2857)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 15	Dev loss: 0.5655	Dev acc: 74.3017	Dev fscore(p/r/f): (76.8293/78.8321/77.8178)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 39	Dev loss: 0.7442	Dev acc: 74.7486	Dev fscore(p/r/f): (78.1250/78.2065/78.1657)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 44	Dev loss: 1.3342	Dev acc: 74.8603	Dev fscore(p/r/f): (74.8024/78.9364/76.8138)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 48	Dev loss: 1.1908	Dev acc: 75.3073	Dev fscore(p/r/f): (75.4864/80.9176/78.1077)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 17	Dev loss: 0.5344	Dev acc: 73.2961	Dev fscore(p/r/f): (72.8502/78.6236/75.6269)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Bert, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.5544	Dev acc: 74.6369	Dev fscore(p/r/f): (76.2336/78.9364/77.5615)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 77	Dev loss: 1.6249	Dev acc: 75.1955	Dev fscore(p/r/f): (74.9754/79.3535/77.1023)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 82	Dev loss: 1.5926	Dev acc: 74.8603	Dev fscore(p/r/f): (75.9000/79.1449/77.4885)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 14	Dev loss: 0.5729	Dev acc: 74.0782	Dev fscore(p/r/f): (74.2829/78.3107/76.2437)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: WWM, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 22	Dev loss: 0.5660	Dev acc: 75.4190	Dev fscore(p/r/f): (76.5594/79.3535/77.9314)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 63	Dev loss: 1.2188	Dev acc: 73.1844	Dev fscore(p/r/f): (73.0392/77.6851/75.2906)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 74	Dev loss: 1.3738	Dev acc: 70.7263	Dev fscore(p/r/f): (71.3178/76.7466/73.9327)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.5509	Dev acc: 70.8380	Dev fscore(p/r/f): (72.5790/74.2440/73.4021)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: LSTM, Word: Roberta, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.5736	Dev acc: 71.7318	Dev fscore(p/r/f): (72.0862/76.7466/74.3434)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 66	Dev loss: 1.5023	Dev acc: 75.7542	Dev fscore(p/r/f): (77.6329/80.7091/79.1411)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: manual_transcript, connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 35	Dev loss: 1.2003	Dev acc: 74.9721	Dev fscore(p/r/f): (77.4226/80.8133/79.0816)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 21	Dev loss: 0.6428	Dev acc: 74.6369	Dev fscore(p/r/f): (78.5124/79.2492/78.8791)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Word2vec, tran: ['asr_1best', 'manual_transcript'], connection: Serial, cnn: False
+FINAL BEST RESULT: 	Epoch: 19	Dev loss: 0.6036	Dev acc: 74.9721	Dev fscore(p/r/f): (78.9749/78.7278/78.8512)
+
+
+lr: 0.000100, drop_out: 0.200000, Drnn: 2, Arnn: 2, RNN: GRU, Word: Bert, tran: manual_transcript, connection: Parallel, cnn: False
+FINAL BEST RESULT: 	Epoch: 71	Dev loss: 1.3381	Dev acc: 74.6369	Dev fscore(p/r/f): (74.8272/79.0407/76.8763)
+
+
